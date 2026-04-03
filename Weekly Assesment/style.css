@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navbar a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f9fafb;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero p {
+    color: #6b7280;
+}
+
+
+.team {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.team h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #1f2937;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1f2937;
+}
+
+.card p {
+    font-size: 12px;
+    color: #4f46e5;
+    font-weight: bold;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f172a;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #cbd5f5;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #fff;
+}
